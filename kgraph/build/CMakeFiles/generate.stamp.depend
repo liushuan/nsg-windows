@@ -1,0 +1,28 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.13/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CMakeParseImplicitLinkInfo.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindBoost.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindOpenMP.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/Platform/WindowsPaths.cmake
+D:/work_space/work_code/nsg/source_code/kgraph/CMakeLists.txt
+D:/work_space/work_code/nsg/source_code/kgraph/build/CMakeFiles/3.13.0-rc3/CMakeCCompiler.cmake
+D:/work_space/work_code/nsg/source_code/kgraph/build/CMakeFiles/3.13.0-rc3/CMakeCXXCompiler.cmake
+D:/work_space/work_code/nsg/source_code/kgraph/build/CMakeFiles/3.13.0-rc3/CMakeRCCompiler.cmake
+D:/work_space/work_code/nsg/source_code/kgraph/build/CMakeFiles/3.13.0-rc3/CMakeSystem.cmake

@@ -1,0 +1,5 @@
+D:\work_space\work_code\nsg\source_code\nsg-master\siftsmall\siftsmall_learn.fvecs 
+D:\work_space\work_code\nsg\source_code\nsg-master\siftsmall\siftsmall_query.fvecs 
+D:\work_space\work_code\nsg\source_code\nsg-master\siftsmall\nsg_graph_data\sift.nsg 
+30 25 
+D:\work_space\work_code\nsg\source_code\nsg-master\siftsmall\result_path\result.ivecs

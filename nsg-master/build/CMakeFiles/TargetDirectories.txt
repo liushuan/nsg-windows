@@ -1,0 +1,7 @@
+D:/work_space/work_code/nsg/source_code/nsg-master/build/CMakeFiles/ALL_BUILD.dir
+D:/work_space/work_code/nsg/source_code/nsg-master/build/CMakeFiles/ZERO_CHECK.dir
+D:/work_space/work_code/nsg/source_code/nsg-master/build/src/CMakeFiles/efanna2e.dir
+D:/work_space/work_code/nsg/source_code/nsg-master/build/src/CMakeFiles/efanna2e_s.dir
+D:/work_space/work_code/nsg/source_code/nsg-master/build/tests/CMakeFiles/test_nsg_optimized_search.dir
+D:/work_space/work_code/nsg/source_code/nsg-master/build/tests/CMakeFiles/test_nsg_index.dir
+D:/work_space/work_code/nsg/source_code/nsg-master/build/tests/CMakeFiles/test_nsg_search.dir

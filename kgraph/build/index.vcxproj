@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C8A2A11B-FE99-3BB3-B25F-8B1DC33060B5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>index</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\work_space\work_code\nsg\source_code\kgraph\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">index.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">index</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\work_space\work_code\nsg\source_code\kgraph\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">index.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">index</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\work_space\work_code\nsg\source_code\kgraph\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">index.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">index</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\work_space\work_code\nsg\source_code\kgraph\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">index.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">index</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>D:\work_space\software\soft_for_caffe\boost_1_61_0\boost_1_61_0;D:\work_space\software\opencv3.2.0\opencv\build\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\work_space\software\opencv3.2.0\opencv\build\x64\vc14\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\work_space\work_code\nsg\source_code\kgraph;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -g -msse2 -O3</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\work_space\work_code\nsg\source_code\kgraph;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\work_space\work_code\nsg\source_code\kgraph;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Debug\kgraph.lib;D:\work_space\software\soft_for_caffe\boost_1_61_0\install\lib\boost_timer-vc140-mt-1_61.lib;D:\work_space\software\soft_for_caffe\boost_1_61_0\install\lib\boost_chrono-vc140-mt-1_61.lib;D:\work_space\software\soft_for_caffe\boost_1_61_0\install\lib\boost_system-vc140-mt-1_61.lib;D:\work_space\software\soft_for_caffe\boost_1_61_0\install\lib\boost_program_options-vc140-mt-1_61.lib;rt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/work_space/work_code/nsg/source_code/kgraph/build/Debug/index.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/work_space/work_code/nsg/source_code/kgraph/build/Debug/index.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\work_space\work_code\nsg\source_code\kgraph;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -g -msse2 -O3</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\work_space\work_code\nsg\source_code\kgraph;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\work_space\work_code\nsg\source_code\kgraph;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Release\kgraph.lib;D:\work_space\software\soft_for_caffe\boost_1_61_0\install\liblib\libboost_timer-vc140-mt-1_61.lib;D:\work_space\software\soft_for_caffe\boost_1_61_0\install\liblib\libboost_chrono-vc140-mt-1_61.lib;D:\work_space\software\soft_for_caffe\boost_1_61_0\install\liblib\libboost_system-vc140-mt-1_61.lib;D:\work_space\software\soft_for_caffe\boost_1_61_0\install\liblib\libboost_program_options-vc140-mt-1_61.lib;opencv_world320.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/work_space/work_code/nsg/source_code/kgraph/build/Release/index.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/work_space/work_code/nsg/source_code/kgraph/build/Release/index.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\work_space\work_code\nsg\source_code\kgraph;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -g -msse2 -O3</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\work_space\work_code\nsg\source_code\kgraph;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\work_space\work_code\nsg\source_code\kgraph;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>MinSizeRel\kgraph.lib;D:\work_space\software\soft_for_caffe\boost_1_61_0\install\lib\boost_timer-vc140-mt-1_61.lib;D:\work_space\software\soft_for_caffe\boost_1_61_0\install\lib\boost_chrono-vc140-mt-1_61.lib;D:\work_space\software\soft_for_caffe\boost_1_61_0\install\lib\boost_system-vc140-mt-1_61.lib;D:\work_space\software\soft_for_caffe\boost_1_61_0\install\lib\boost_program_options-vc140-mt-1_61.lib;rt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/work_space/work_code/nsg/source_code/kgraph/build/MinSizeRel/index.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/work_space/work_code/nsg/source_code/kgraph/build/MinSizeRel/index.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\work_space\work_code\nsg\source_code\kgraph;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -g -msse2 -O3</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>c++11</CppLanguageStandard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\work_space\work_code\nsg\source_code\kgraph;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\work_space\work_code\nsg\source_code\kgraph;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>RelWithDebInfo\kgraph.lib;D:\work_space\software\soft_for_caffe\boost_1_61_0\install\lib\boost_timer-vc140-mt-1_61.lib;D:\work_space\software\soft_for_caffe\boost_1_61_0\install\lib\boost_chrono-vc140-mt-1_61.lib;D:\work_space\software\soft_for_caffe\boost_1_61_0\install\lib\boost_system-vc140-mt-1_61.lib;D:\work_space\software\soft_for_caffe\boost_1_61_0\install\lib\boost_program_options-vc140-mt-1_61.lib;rt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/work_space/work_code/nsg/source_code/kgraph/build/RelWithDebInfo/index.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/work_space/work_code/nsg/source_code/kgraph/build/RelWithDebInfo/index.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\work_space\work_code\nsg\source_code\kgraph\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/work_space/work_code/nsg/source_code/kgraph/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/work_space/work_code/nsg/source_code/kgraph -BD:/work_space/work_code/nsg/source_code/kgraph/build --check-stamp-file D:/work_space/work_code/nsg/source_code/kgraph/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/work_space/work_code/nsg/source_code/kgraph/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindBoost.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;D:\work_space\work_code\nsg\source_code\kgraph\CMakeLists.txt;D:\work_space\work_code\nsg\source_code\kgraph\build\CMakeFiles\3.13.0-rc3\CMakeCCompiler.cmake;D:\work_space\work_code\nsg\source_code\kgraph\build\CMakeFiles\3.13.0-rc3\CMakeCXXCompiler.cmake;D:\work_space\work_code\nsg\source_code\kgraph\build\CMakeFiles\3.13.0-rc3\CMakeRCCompiler.cmake;D:\work_space\work_code\nsg\source_code\kgraph\build\CMakeFiles\3.13.0-rc3\CMakeSystem.cmake;D:\work_space\work_code\nsg\source_code\kgraph\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\work_space\work_code\nsg\source_code\kgraph\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/work_space/work_code/nsg/source_code/kgraph/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/work_space/work_code/nsg/source_code/kgraph -BD:/work_space/work_code/nsg/source_code/kgraph/build --check-stamp-file D:/work_space/work_code/nsg/source_code/kgraph/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/work_space/work_code/nsg/source_code/kgraph/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindBoost.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;D:\work_space\work_code\nsg\source_code\kgraph\CMakeLists.txt;D:\work_space\work_code\nsg\source_code\kgraph\build\CMakeFiles\3.13.0-rc3\CMakeCCompiler.cmake;D:\work_space\work_code\nsg\source_code\kgraph\build\CMakeFiles\3.13.0-rc3\CMakeCXXCompiler.cmake;D:\work_space\work_code\nsg\source_code\kgraph\build\CMakeFiles\3.13.0-rc3\CMakeRCCompiler.cmake;D:\work_space\work_code\nsg\source_code\kgraph\build\CMakeFiles\3.13.0-rc3\CMakeSystem.cmake;D:\work_space\work_code\nsg\source_code\kgraph\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\work_space\work_code\nsg\source_code\kgraph\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/work_space/work_code/nsg/source_code/kgraph/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/work_space/work_code/nsg/source_code/kgraph -BD:/work_space/work_code/nsg/source_code/kgraph/build --check-stamp-file D:/work_space/work_code/nsg/source_code/kgraph/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/work_space/work_code/nsg/source_code/kgraph/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindBoost.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;D:\work_space\work_code\nsg\source_code\kgraph\CMakeLists.txt;D:\work_space\work_code\nsg\source_code\kgraph\build\CMakeFiles\3.13.0-rc3\CMakeCCompiler.cmake;D:\work_space\work_code\nsg\source_code\kgraph\build\CMakeFiles\3.13.0-rc3\CMakeCXXCompiler.cmake;D:\work_space\work_code\nsg\source_code\kgraph\build\CMakeFiles\3.13.0-rc3\CMakeRCCompiler.cmake;D:\work_space\work_code\nsg\source_code\kgraph\build\CMakeFiles\3.13.0-rc3\CMakeSystem.cmake;D:\work_space\work_code\nsg\source_code\kgraph\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\work_space\work_code\nsg\source_code\kgraph\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/work_space/work_code/nsg/source_code/kgraph/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/work_space/work_code/nsg/source_code/kgraph -BD:/work_space/work_code/nsg/source_code/kgraph/build --check-stamp-file D:/work_space/work_code/nsg/source_code/kgraph/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/work_space/work_code/nsg/source_code/kgraph/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindBoost.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;D:\work_space\work_code\nsg\source_code\kgraph\CMakeLists.txt;D:\work_space\work_code\nsg\source_code\kgraph\build\CMakeFiles\3.13.0-rc3\CMakeCCompiler.cmake;D:\work_space\work_code\nsg\source_code\kgraph\build\CMakeFiles\3.13.0-rc3\CMakeCXXCompiler.cmake;D:\work_space\work_code\nsg\source_code\kgraph\build\CMakeFiles\3.13.0-rc3\CMakeRCCompiler.cmake;D:\work_space\work_code\nsg\source_code\kgraph\build\CMakeFiles\3.13.0-rc3\CMakeSystem.cmake;D:\work_space\work_code\nsg\source_code\kgraph\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\work_space\work_code\nsg\source_code\kgraph\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\work_space\work_code\nsg\source_code\kgraph\index.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\work_space\work_code\nsg\source_code\kgraph\build\ZERO_CHECK.vcxproj">
+      <Project>{54D9755A-872F-3538-B8CE-7542C183ABE5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\work_space\work_code\nsg\source_code\kgraph\build\kgrapha.vcxproj">
+      <Project>{964EAD9B-18F8-3E4F-95FE-B25617DC3BBA}</Project>
+      <Name>kgrapha</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

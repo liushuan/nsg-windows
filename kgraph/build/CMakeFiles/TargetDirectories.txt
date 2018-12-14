@@ -1,0 +1,7 @@
+D:/work_space/work_code/nsg/source_code/kgraph/build/CMakeFiles/kgraph.dir
+D:/work_space/work_code/nsg/source_code/kgraph/build/CMakeFiles/search.dir
+D:/work_space/work_code/nsg/source_code/kgraph/build/CMakeFiles/kgrapha.dir
+D:/work_space/work_code/nsg/source_code/kgraph/build/CMakeFiles/index.dir
+D:/work_space/work_code/nsg/source_code/kgraph/build/CMakeFiles/INSTALL.dir
+D:/work_space/work_code/nsg/source_code/kgraph/build/CMakeFiles/ALL_BUILD.dir
+D:/work_space/work_code/nsg/source_code/kgraph/build/CMakeFiles/ZERO_CHECK.dir
